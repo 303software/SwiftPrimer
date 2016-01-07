@@ -9,6 +9,8 @@ The [Swift Reference] is going to be your friend.  Would recommend reading it fr
 
 1. Basics
 2. Optionals
+3. Functions
+
 */
 
 

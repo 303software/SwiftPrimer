@@ -5,6 +5,11 @@
         <page name='1. Basics'/>
         <page name='2. Optionals'/>
         <page name='3. Functions'/>
-        <page name='3. Data Types'/>
+        <page name='4. Classes &amp; Structs'/>
+        <page name='5. Enums'/>
+        <page name='6. Protocols'/>
+        <page name='7. Tuples'/>
+        <page name='8. Generics'/>
+        <page name='9. Error Handling'/>
     </pages>
 </playground>

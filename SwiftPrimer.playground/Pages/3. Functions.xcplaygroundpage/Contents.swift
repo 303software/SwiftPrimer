@@ -73,8 +73,8 @@ class MemorySafe : MemoryNightmare {
     }
 }
 
-//: ## Advanced
 /*: 
+## Advanced
 ### Currying
 [Currying in Swift]: https://robots.thoughtbot.com/introduction-to-function-currying-in-swift
 Not going to get at length into currying, but if you're into a mindfuck let's start partially applying functions.
