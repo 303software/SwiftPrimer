@@ -1,10 +1,13 @@
-//: [Previous](@previous)
-
 /*:
-#Error Handling
+[Error Handling Reference]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ErrorHandling.html#//apple_ref/doc/uid/TP40014097-CH42-ID508
 [Swift Error Handling Rationale]: https://github.com/apple/swift/blob/master/docs/ErrorHandlingRationale.rst
 
-Got a while to learn stuff? [Swift Error Handling Rationale]
+[Previous](@previous)
+# Error Handling
+
++ [Error Handling Reference]
++ [Swift Error Handling Rationale] (lengthy, but a great read)
+
 Swift propagates errors in a way that is 
 
 + Typed

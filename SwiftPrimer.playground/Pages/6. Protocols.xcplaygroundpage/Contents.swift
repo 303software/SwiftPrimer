@@ -8,7 +8,10 @@
 
 ----
 
-Protocols are the bread and butter of effective coding in Swift.   They allow us to work more effectively with different types by grouping them according to their functionality.  At it's core, a protocol is a contract that implementing types cans state they adhere to.  
++ [Protocol Reference]
++ [WWDC Protocol Oriented Programming]
+
+Protocols are the bread and butter of effective coding in Swift.   They allow us to work more effectively with different types by grouping them according to their functionality.  At it's core, a protocol is a contract that implementing types cans state they adhere to.
 
 Consider this example of animals in a zoo.
 */

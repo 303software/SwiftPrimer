@@ -1,10 +1,10 @@
 /*:
+[Optionals Reference]:https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID330
+
 [Previous](@previous)
 # **Optionals**
 
 ----
-
-[Optionals Reference]:https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID330
 
 [Optionals Reference]
 

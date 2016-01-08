@@ -1,9 +1,12 @@
-//: [Previous](@previous)
 /*:
-# **Classes**
 [Swift Initialization]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html
+[Classes & Structs Reference]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ClassesAndStructures.html#//apple_ref/doc/uid/TP40014097-CH13-ID82
+
+[Previous](@previous)
+# **Classes**
 
 ----
+[Classes & Structs Reference]
 
 A class is a reference type.
 Swift has strict initialization rules for classes with inheritance [Swift Initialization]

@@ -1,9 +1,12 @@
 /*: 
+[Basics Reference]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
+
 [Previous](@previous)
-# Basics
+# **Basics**
 
 ----
 
+[Basics Reference]
 # **Types**
 Swift is a strongly typed language with type inference.  This means you don't always have to explictly declare your types, the compiler will infer it for you.
 */

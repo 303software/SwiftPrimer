@@ -1,7 +1,12 @@
 /*:
+[Function Reference]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html
+[Closure Reference]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID94
+
 [Previous](@previous)
 # **Functions**
 ### So many ways to define and call them
++ [Function Reference]
++ [Closure Reference]
 
 ----
 

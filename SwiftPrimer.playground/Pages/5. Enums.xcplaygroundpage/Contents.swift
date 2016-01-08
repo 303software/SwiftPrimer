@@ -1,11 +1,17 @@
-//: [Previous](@previous)
 /*:
+[Enum Reference]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145
+
+[Previous](@previous)
 # **Enums**
 
 ----
 
+[Enum Reference]
+
 Swift Enums are pretty cool and way more powerful than their Obj-C counterparts.  They can associate values, adhere to protocols, be added to arrays etc.  Enums are useful in situations where an object can have a known, limited number of permutations
+
 */
+
 enum FamilyMember {
     case Parent
     case Grandparent

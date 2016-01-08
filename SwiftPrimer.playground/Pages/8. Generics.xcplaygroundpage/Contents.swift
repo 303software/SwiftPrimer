@@ -1,8 +1,12 @@
 /*:
-//: [Previous](@previous)
+[Generics Reference]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html#//apple_ref/doc/uid/TP40014097-CH26-ID179
+
+[Previous](@previous)
 # **Generics**
 
 ----
+
+[Generics Reference]
 
 Generics allow us to write flexible functions and types that work with multiple different other types.  Java developers will be familiar.
 Let's create a stack struct to illustrate the problem generics solve.
