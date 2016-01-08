@@ -2,6 +2,9 @@
 # Welcome to Swift
 
 [Swift Book]:http://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language
+[objc.io]: https://www.objc.io
+[NSHipster]: http://nshipster.com
+[iOS Dev Slack Community]: https://ios-developers.io/
 
 The [Swift Book] is going to be your friend.  Highly recommend reading it front to back.  Please play with all the examples in here, it's a great way to learn.  
 If you get stuck and can't get a page to compile again, just clear your local changes in git.  `git checkout -- *`
@@ -11,7 +14,9 @@ If you get stuck and can't get a page to compile again, just clear your local ch
 ----
 
 + [Swift Book]
-
++ [objc.io]
++ [NSHipster]
++ [iOS Dev Slack Community]
 
 # **Chapters**
 
@@ -26,5 +31,6 @@ If you get stuck and can't get a page to compile again, just clear your local ch
 7. [Tuples](7.%20Tuples)
 8. [Generics](8.%20Generics)
 9. [Error Handling](9.%20Error%20Handling)
+
+[Next](@next)
 */
-//: [Next](@next)

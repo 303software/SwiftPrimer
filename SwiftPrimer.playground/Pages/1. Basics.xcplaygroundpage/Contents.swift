@@ -10,8 +10,8 @@ Swift is a strongly typed language with type inference.  This means you don't al
 let string1 : String = "yes"
 let string2 = "yes" //compiler infers this is a string
 //: Types can be aliased for ease of use or conceptual clarity
-typealias MeaningOfLife = Int
-let answer : MeaningOfLife = 42
+typealias Quantity = Int
+let quantity : Quantity = 42
 /*:
 # **Mutability**
 
