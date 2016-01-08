@@ -4,6 +4,8 @@ This is intended as an interactive supplement to the [Swift Language Book](https
 
 Play around!  If you mess something up and the playground won't compile, you can always revert with `git checkout -- *`
 
+Make sure `Render Documentation` is checked in the file inspector to render the markdown comments.
+
 ## Contributing
 
 Everything could use a least a little love, but some particular areas that need to be started or expounded on:
