@@ -52,6 +52,10 @@ do {
     print(error)
 }
 
+//: Errors don't have to be handled where they are generated.  In fact the art of proper error handling relies on allowing errors to propogate to the proper place to handle them.  To this end, functions can pass through errors.  Notice how this function doesn't handle the error.  
+func passThrough(input: Int) throws -> Int {
+    return try couldError(input)
+}
 
 /*:
 ## Quick And Dirty Error Handling
@@ -60,14 +64,8 @@ Just because these functions exist in the language doesn't mean you should use t
 
 //: Creates an optional out of the result
 let optionalResult = try? couldError(100) //nil
+//: Force the result.  VERY DANGEROUS
 let forcedResult = try! couldError(50) // try it with 100, it'll crash the app
-
-
-
-5
-
-
-
 
 
 //: [Next](@next)

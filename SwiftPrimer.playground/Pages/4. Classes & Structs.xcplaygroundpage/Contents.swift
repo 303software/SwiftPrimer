@@ -1,9 +1,12 @@
 //: [Previous](@previous)
 /*:
-# Classes
+# **Classes**
 [Swift Initialization]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html
+
+----
+
 A class is a reference type.
-Swift has strict initialization rules, especially for classes with inheritance [Swift Initialization]
+Swift has strict initialization rules for classes with inheritance [Swift Initialization]
 */
 class ReferenceType {
     var msg: String
@@ -19,7 +22,6 @@ class SubClassOne : ReferenceType {}
 //: If you don't provide any initializers, all of the superclass' initializers will be available
 SubClassOne()
 SubClassOne(msg: "Dad?")
-
 /*:
 Things get more complicated if a subclass offers its own initializers.  In this case, make note of:
 + A subclass must override any designated (required) initializers from it's super class
@@ -40,9 +42,10 @@ class SubClassTwo : ReferenceType {
 SubClassTwo(fruit: "Banana")
 SubClassTwo(msg: "YOLO")
 SubClassTwo()
-
 /*:
-# Structs
+# **Structs**
+
+----
 
 A struct is a value type.  They cannot be subclassed, as structs have no notion of inheritance.  Beyond that and their pass-by-value semantics they behave similar to classes.  They can be put in arrays (unlike Obj-C), contain functions, adhere to protocols etc.
 */
@@ -67,7 +70,10 @@ let pandaTwo = PandaBear(name: "Donald")
 //pandaTwo.nameSteve()
 
 /*: 
-# Value vs Reference Types
+# **Value vs Reference Types**
+
+----
+
 */
 var ref = ReferenceType(msg: "Dad?")
 var ref2 = ref
@@ -78,13 +84,15 @@ var value = ValueType(msg: "Who?", fruit: "Lyche")
 var value2 = value
 value2.fruit = "Guava"
 value.fruit == value2.fruit //false
-
 //: This needs some improvement.  Short of it is that value types (structs) make superior models in many situations because you can be assured no other code is modifying the model at any time.  You can think of new struct references (like below) generating a copy of the struct instead of another reference to the same object like classes.  This leads to more reliable code.  This isn't exactly the case, but it's pretty close.  Swift actually implements Copy On Write semantics to reduce the overhead of working with structs.  In reality, the struct copy is only made when necessary, i.e. a mutation occurs
 
 /*:
-# Advanced
-## Copy on Write
-will do later
+# **Advanced**
+### Copy on Write
+
+----
+
+TODO
 */
 
 

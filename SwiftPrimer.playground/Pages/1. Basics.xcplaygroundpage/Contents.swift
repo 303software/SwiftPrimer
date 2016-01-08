@@ -1,26 +1,40 @@
-//: [Previous](@previous)
 /*: 
+[Previous](@previous)
 # Basics
+
+----
+
+# **Types**
+Swift is a strongly typed language with type inference.  This means you don't always have to explictly declare your types, the compiler will infer it for you.
 */
-//: ## Type System
-//: Swift is a strongly typed language with strong type inference.  This means you don't always have to explictly declare your types, the compiler will infer it for you.
 let string1 : String = "yes"
 let string2 = "yes" //compiler infers this is a string
 //: Types can be aliased for ease of use or conceptual clarity
 typealias MeaningOfLife = Int
 let answer : MeaningOfLife = 42
+/*:
+# **Mutability**
 
-//: ## Mutability
-//: Swift has two different variable declaration keywords depending on the intended mutability.  Try and play with these.  The default for variables should be immutable unless there is a valid reason for mutation.  Immutable variables are much easier for humans to reason about and the compiler to optimize for.  
+----
+
+Swift has two different variable declaration keywords depending on the intended mutability.  Try and play with these.
+The default for variables should be immutable unless there is a valid reason for mutation.  Immutable variables are much easier for humans to reason about and the compiler to optimize for.
+
+*/
 let immutable = 33 //cannot be reassigned
 var mutable = 42 //can be reassigned
 //: Using var vs let will change the available methods on value types like collections
 var mutableArray = [1, 2, 3]
 mutableArray.append(4)
-let immutableArray = [1, 2, 3] //no append() method
+let immutableArray = [1, 2, 3]
+//immutableArray.append(5) //not allowed
+/*:
+# **Control Flow**
 
-//: ## Control Flow
-//: If statements don't require parenths
+----
+
+If statements don't require parenths
+*/
 if 1+1 == 2 {}
 //: Swift 2.0 introduced the 'guard' keyword.  It's used primarily to protect against invalid inputs.  Use it for such, it promotes code clarity.
 func doublesIfUnderFive(input: Int) -> Int? {
@@ -45,5 +59,16 @@ for letter in alphabet {
 for (index, element) in alphabet.enumerate() {
     print("\(index):\(element)") //"0:A", "1:B", "2:C"
 }
-
+//: You can also qualify your for loops with a where clause
+for i in 0...10 where i % 2 == 0 { //get only the even numbers between 0-10
+    print(i)
+}
+//: Or use the stride method for the same functionality
+for i in 0.stride(through: 10, by: 2) {
+    print(i)
+}
+//: C style loops work as well, although there is talk of removing them from the language as antiquated with Swift 3.0
+for (var i=0; i<3; i++ ) {
+    print(i)
+}
 //: [Next](@next)

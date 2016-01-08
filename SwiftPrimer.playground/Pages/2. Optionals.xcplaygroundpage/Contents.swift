@@ -1,7 +1,9 @@
 /*:
-
 [Previous](@previous)
-# Optionals
+# **Optionals**
+
+----
+
 [Optionals Reference]:https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID330
 
 [Optionals Reference]
@@ -40,21 +42,21 @@ func optionalInput(input: Int?) -> Int? {
 //: There is also a shorthand ternary statement for optionals.  It is very useful for establishing defaults
 let optionalSetting: String? = nil
 let setting = optionalSetting ?? "Default Setting"
-
 /*:
 Optionals can also be force unwrapped if you are sure they won't be nil.  Use force unwraps very sparingly, a nil value will crash your application at runtime with an uncatchable logic error.  'if let' statements are much safer.  Use a `!` to force unwrap an optional
 */
 print(optional2!) //try it with optional1, it will throw a runtime error
-
 /*:
 An optional can also be marked as implictly unwrapped.  Implicitly unwrapped optionals can be nil, but are assumed to never be.  If this sounds dangerous, you're very right as they remove the compilers ability to ensure you are dealing with an optional correctly.  You'll see these used predominantly in IBOutlets, as a way to attach properties post initialization.  Try to avoid using them yourself as much as possible.  They are very dangerous.  An implictly unwrapped optional is declared with a '!' in the type signature instead of `?`
 */
 let implictlyUnwrapped: String! = nil //accessing this variable will throw a run time exception, try print(implictlyUnwrapped)
 let noCrashUnwrapped: String! = "whew" //used exactly like a normal (non optional) variable.  try print(noCrashUnwrapped)
-
-
 /*:
-## Advanced
+## **Advanced**
+### The Optional Implementation
+
+----
+
 For later reflection :)
 
 Optionals aren't magic.  They have a very succint, generic enum based definition.  It looks something like this.  The compiler just adds a lot of convenience to working with them via the ? and ! operators
@@ -78,7 +80,4 @@ case .Some(let value):
 case .None:
     print("No Value")
 }
-
-
-
 //: [Next](@next)

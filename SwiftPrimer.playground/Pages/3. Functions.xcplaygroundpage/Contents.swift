@@ -1,8 +1,12 @@
-//: [Previous](@previous)
-//: # Functions
-//: ### So many ways to define and call them
+/*:
+[Previous](@previous)
+# **Functions**
+### So many ways to define and call them
 
-//: Void return values can be ommited
+----
+
+Void return values can be ommited
+*/
 func doSomething() -> Void {}
 func doSomethingElse() {} //these are the same
 
@@ -27,10 +31,11 @@ __add(2, 5)
 func transformInt(input: Int, fn: (Int) -> Int) -> Int {
     return fn(input)
 }
-//: In descending verbosity, these are all equivalent function calls.  Not how the Swift compiler can infer type information that is left out.
+//: In descending verbosity, these are all equivalent function calls
 transformInt(5, fn: { (input: Int) -> Int in
     return input * 2
 })
+//: Not how the Swift compiler can infer type information that is left out.
 transformInt(5, fn: { input in
     return input * 2
 })
@@ -74,8 +79,11 @@ class MemorySafe : MemoryNightmare {
 }
 
 /*: 
-## Advanced
+# **Advanced**
 ### Currying
+
+----
+
 [Currying in Swift]: https://robots.thoughtbot.com/introduction-to-function-currying-in-swift
 Not going to get at length into currying, but if you're into a mindfuck let's start partially applying functions.
 More info: [Currying in Swift]
