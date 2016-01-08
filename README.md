@@ -1,6 +1,6 @@
 # Swift Primer
 
-This is intended as an interactive supplement to the [Swift Language Book](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/).
+This is intended as an interactive supplement to the [Swift Language Book](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/).  The intended audience has some programming experience but is a Swift beginner.
 
 Play around!  If you mess something up and the playground won't compile, you can always revert with `git checkout -- *`
 
