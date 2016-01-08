@@ -5,6 +5,8 @@
 [objc.io]: https://www.objc.io
 [NSHipster]: http://nshipster.com
 [iOS Dev Slack Community]: https://ios-developers.io/
+[WWDC Videos]: https://developer.apple.com/videos/
+[Airspeed Velocity]: http://airspeedvelocity.net/
 
 The [Swift Book] is going to be your friend.  Highly recommend reading it front to back.  Please play with all the examples in here, it's a great way to learn.  
 If you get stuck and can't get a page to compile again, just clear your local changes in git.  `git checkout -- *`
@@ -14,8 +16,10 @@ If you get stuck and can't get a page to compile again, just clear your local ch
 ----
 
 + [Swift Book]
++ [WWDC Videos]
 + [objc.io]
 + [NSHipster]
++ [Airspeed Velocity]
 + [iOS Dev Slack Community]
 
 # **Chapters**
