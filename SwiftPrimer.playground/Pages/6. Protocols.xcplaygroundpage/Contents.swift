@@ -8,8 +8,9 @@
 
 ----
 
-Protocols are the blah blah blah insert something smart sounding here
+Protocols are the bread and butter of effective coding in Swift.   They allow us to work more effectively with different types by grouping them according to their functionality.  At it's core, a protocol is a contract that implementing types cans state they adhere to.  
 
+Consider this example of animals in a zoo.
 */
 protocol Animal {
     var full: Bool {get}
@@ -96,7 +97,7 @@ The takeaway from all of this (very contrived) silliness is that protocols allow
 
 # Protocol Extensions
 ### Providing default behavior to a protocol
-
+TODO
 ----
 
 */
