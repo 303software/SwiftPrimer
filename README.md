@@ -13,7 +13,7 @@ Everything could use a least a little love, but some particular areas that need 
 + Extensions (general)
 + Protocol Extensions (specific)
 + Copy on Write semantics
-+ Other control flow statements (do-repeat, repeat-while, etc)
++ Other control flow statements (while, repeat-while, switch, value binding, etc)
 + Associated Types and generic protocols
 + Currying (expound and finish)
 + Objective-C interoperability
