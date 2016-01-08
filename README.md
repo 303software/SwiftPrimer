@@ -6,7 +6,7 @@ Play around!  If you mess something up and the playground won't compile, you can
 
 ## Contributing
 
-Everything could use a least a little love, but some particular areas that need to be expounded on:
+Everything could use a least a little love, but some particular areas that need to be started or expounded on:
 
 + Extensions (general)
 + Protocol Extensions (specific)
@@ -15,3 +15,4 @@ Everything could use a least a little love, but some particular areas that need 
 + Associated Types and generic protocols
 + Currying (expound and finish)
 + Objective-C interoperability
++ Access Control
